@@ -5,6 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="wrap_content">
 
+    //Image view untuk url gambar kontak
     <ImageView
         android:id="@+id/imageContact"
         android:layout_width="75dp"
@@ -18,6 +19,7 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
+    //text view nama kontak
     <TextView
         android:id="@+id/txtName"
         android:layout_width="0dp"
@@ -31,6 +33,7 @@
         app:layout_constraintStart_toStartOf="@+id/guideline3"
         app:layout_constraintTop_toTopOf="parent" />
 
+    //text view no telepon
     <TextView
         android:id="@+id/txtPhone"
         android:layout_width="0dp"

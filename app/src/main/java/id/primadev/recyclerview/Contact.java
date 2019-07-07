@@ -5,17 +5,19 @@ package id.primadev.recyclerview;
  */
 
 public class Contact {
-
+    //Deklarasi Variabel
     private String name;
     private String phone;
     private String imageUrl;
 
+    //Konstruktor
     public Contact(String name, String phone, String imageUrl) {
         this.name = name;
         this.phone = phone;
         this.imageUrl = imageUrl;
     }
 
+    //Getter dan Setter
     public String getName() {
         return name;
     }

@@ -18,6 +18,7 @@ import java.util.List;
  * Created on 16/10/18.
  */
 
+//extend kelas ke recycle view adapter
 public class ContactAdapter extends
         RecyclerView.Adapter<ContactAdapter.ContactViewHolder>{
     //1 dataset

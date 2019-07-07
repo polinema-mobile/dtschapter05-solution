@@ -10,6 +10,8 @@ import android.widget.Toast;
 import java.util.ArrayList;
 import java.util.List;
 
+
+
 public class MainActivity extends AppCompatActivity implements ContactAdapter.OnContactClickListener {
 
     public RecyclerView rv;
@@ -23,7 +25,7 @@ public class MainActivity extends AppCompatActivity implements ContactAdapter.On
         setContentView(R.layout.activity_main);
 
         rv = findViewById(R.id.rvContact);
-
+        //List kontak yang akan di tampilkan (nama, telepon, url gambar
         listContact.add(new Contact("Iron Man",
                 "102018308",
                 "https://cdn4.iconfinder.com/data/icons/famous-characters-add-on-vol-1-flat/48/Famous_Character_-_Add_On_1-14-512.png"));
